@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="landing-container">
+        <h1>Welcome to the Healthcare Chatbot</h1>
+        <p>Our AI-powered chatbot can assist you with healthcare queries. Whether you want to describe your symptoms or upload an image for analysis, we're here to help!</p>
+        <div class="button-container">
+            <a href="/chat" class="btn">Chat with Bot</a>
+            <a href="/chat-image" class="btn">Chat using Images</a>
+        </div>
+    </div>
+</body>
+</html>
